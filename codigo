@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrição Evento</title>
+</head>
+<body>
+
+    <img src="https://cdn.ecoticket.com.br/content/alling/1770492855-banner-1604-small-1170x400.jpg" alt="Imagem do Evento" width="800"><br><br>
+
+    <h2>Horários dos Shows</h2>
+    <table border="1">
+        <tr>
+            <th>Horário</th>
+            <th>Artista</th>
+            <th>Palco 1</th>
+        </tr>
+        <tr>
+            <td> 22:00 </td>
+            <td> Pedro Paulo e Alex </td>
+            <td>Palco Principal</td>
+        </tr>
+        <tr>
+            <td> 00:00 </td>
+            <td> Us Agroboy </td>
+            <td> Palco Principal </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h2>Formulário de Inscrição</h2>
+
+    <form>
+
+        <label>Nome:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Telefone:</label><br>
+        <input type="tel" name="telefone" required><br><br>
+
+        <label>Tipo de ingresso:</label><br>
+        <input type="radio" name="ingresso" value="Pista" required> Pista<br>
+        <input type="radio" name="ingresso" value="VIP"> VIP<br>
+        <input type="radio" name="ingresso" value="Camarote"> Camarote<br><br>
+
+        <label>Receber atualizações por e-mail?</label><br>
+        <input type="radio" name="atualizacoes" value="Sim" required> Sim<br>
+        <input type="radio" name="atualizacoes" value="Nao"> Não<br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>
